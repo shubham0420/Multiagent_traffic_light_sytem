@@ -1,0 +1,28 @@
+<!--
+To specify traffic movements and lane connections an additional file with extension .con.xml is required
+This file connects various edges -->
+
+<connections>
+	<connection from = 'e1' to = 'e2' />
+	<connection from = 'e1' to = 'e8' />
+	<connection from = 'e2' to = 'e8' />
+	<connection from = 'e3' to = 'e8' />
+	<connection from = 'e3' to = 'e9' />
+	<connection from = 'e3' to = 'e4' />
+	<connection from = 'e4' to = 'e8' />
+	<connection from = 'e4' to = 'e9' />
+	<connection from = 'e6' to = 'e9' />
+	<connection from = 'e6' to = 'e7' />
+	<connection from = 'e7' to = 'e9' />
+	<connection from = 'e11' to = 'e12' />
+	<connection from = 'e11' to = 'e18' />
+	<connection from = 'e12' to = 'e18' />
+	<connection from = 'e13' to = 'e18' />
+	<connection from = 'e13' to = 'e19' />
+	<connection from = 'e13' to = 'e14' />
+	<connection from = 'e14' to = 'e18' />
+	<connection from = 'e14' to = 'e19' />
+	<connection from = 'e16' to = 'e19' />
+	<connection from = 'e16' to = 'e17' />
+	<connection from = 'e17' to = 'e19' />
+</connections>

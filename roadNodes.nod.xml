@@ -1,0 +1,23 @@
+<!-- This file creates the nodes for the roads
+The file contain 9 nodes
+node id :- 'x' where x is a natural number (1,9)
+x,y :- [-100,100]
+
+Structure of the file is :-
+
+
+
+-->
+
+<nodes>
+	<node id = '0' x = '-100' y = '100' type = 'traffic_light'/>
+	<node id = '1' x = '0' y = '100' type = 'traffic_light'/>
+	<node id = '2' x = '100' y = '100' type = 'traffic_light'/>
+	<node id = '3' x = '-100' y = '0' type = 'traffic_light'/>
+	<node id = '4' x = '0' y = '0'  type = 'traffic_light'/>
+	<node id = '5' x = '100' y = '0' type = 'traffic_light'/>
+	<node id = '6' x = '-100' y = '-100' type = 'traffic_light'/>
+	<node id = '7' x = '0' y = '-100' type = 'traffic_light'/>
+	<node id = '8' x = '100' y = '-100' type = 'traffic_light'/>
+</nodes>
+
